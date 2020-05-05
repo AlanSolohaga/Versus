@@ -106,7 +106,7 @@ public class CargaJugadorFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
         final AdaptadorAgregarJugador adapter = new AdaptadorAgregarJugador(jugadores);
         recyclerView.setAdapter(adapter);
-        System.out.println("modificacion");
+
         btnAgregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
